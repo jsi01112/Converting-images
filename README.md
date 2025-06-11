@@ -34,7 +34,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 2. GAN 모델 파일 준비학습을 통해 얻은 GAN 모델의 가중치 파일(예: latest_net_G_B.pth)을 준비합니다.이 파일을 앱의 Python 스크립트(image_filter_app.py)와 동일한 디렉토리에 놓는 것을 권장합니다.만약 다른 경로에 있다면, 코드 내 load_gan_model 함수의 gan_model_path 변수를 해당 파일의 정확한 경로로 수정해야 합니다.# 예시:
 gan_model_path = r'C:\Users\jsi01\OneDrive\바탕 화면\컴퓨터비전기반오토모티브SW\latest_net_G_B.pth'
-(r 접두사는 Windows 경로의 역슬래시 문제를 해결해 줍니다.)3. 애플리케이션 실행Python 스크립트를 실행합니다.python image_filter_app.py
+3. 애플리케이션 실행Python 스크립트를 실행합니다.python image_filter_app.py
 
 📝 사용 방법
 
