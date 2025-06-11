@@ -22,7 +22,8 @@ Python 3.xTkinter: GUI (Graphical User Interface) 구축OpenCV (cv2): 이미지 
 
 🚀 설치 및 실행 방법
 
-1. 필수 라이브러리 설치터미널 또는 명령 프롬프트에서 다음 명령어를 실행하여 필요한 라이브러리들을 설치합니다.pip install Pillow
+1. 필수 라이브러리 설치
+터미널 또는 명령 프롬프트에서 다음 명령어를 실행하여 필요한 라이브러리들을 설치합니다.pip install Pillow
 pip install opencv-python
 pip install numpy
 # PyTorch 설치 (사용하는 환경에 따라 적절한 명령어 선택)
