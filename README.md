@@ -1,5 +1,5 @@
-# 만화 스타일로 이미지 변환 - Converting-images
-Converting images to cartoon style 
+# 만화 스타일로 이미지 변환 - Converting images to cartoon style
+ 
 [![Video Label](http://img.youtube.com/vi/WO7ePyKYrlo/0.jpg)](https://youtu.be/WO7ePyKYrlo)
 
 🎨 이미지 필터 및 GAN 스타일 변환 앱 🖼️
@@ -9,6 +9,7 @@ Converting images to cartoon style
 이 애플리케이션은 Python의 Tkinter를 기반으로 한 직관적인 GUI를 통해 이미지에 다양한 시각 효과를 적용할 수 있는 도구입니다. 기본적인 필터(카툰, 연필 드로잉, 하프톤)뿐만 아니라, 학습된 GAN(Generative Adversarial Network) 모델을 활용하여 일반 사진을 인상주의 회화 스타일로 변환하는 혁신적인 기능을 제공합니다. 사용자 친화적인 인터페이스로 누구나 쉽게 이미지를 예술 작품으로 탈바꿈시킬 수 있습니다.
 
 ✨ 주요 기능
+
 이미지 로드 및 저장: JPG, PNG 등 다양한 형식의 이미지 파일을 손쉽게 불러오고 처리된 이미지를 저장합니다.
 카툰 효과: 이미지의 색상을 단순화하고 윤곽선을 강조하여 만화 같은 느낌을 줍니다.
 연필 드로잉: 이미지를 흑백 연필 스케치처럼 변환하여 섬세한 그림 효과를 표현합니다.
@@ -16,6 +17,7 @@ Converting images to cartoon style
 GAN 인상주의 변환: 학습된 CycleGAN 모델을 사용하여 일반 사진을 인상주의 회화 스타일로 자동 변환합니다.강도 조절: 원본 이미지와 GAN 변환 결과물을 블렌딩하여 인상주의 효과의 강도를 조절할 수 있습니다.
 
 🛠️ 기술 스택
+
 Python 3.xTkinter: GUI (Graphical User Interface) 구축OpenCV (cv2): 이미지 처리 및 조작Pillow (PIL): 이미지 파일 관리 및 Tkinter 호환성NumPy: 고성능 수치 계산 및 이미지 데이터 처리PyTorch: GAN 모델 정의, 학습, 추론 (CPU 또는 CUDA)
 
 🚀 설치 및 실행 방법
